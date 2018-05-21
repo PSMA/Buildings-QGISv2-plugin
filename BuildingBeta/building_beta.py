@@ -253,7 +253,7 @@ class BuildingBeta:
 
         for item in data3['data']: #.'address_id':
             print item #9th april trace.
-            item_id = item['address_id']
+            item_id = item['addressId']
 
 
             #out on the 9th april to work with links and pageination.
@@ -315,7 +315,7 @@ class BuildingBeta:
         #data2 = json.loads(response.text)
         #data2 = json.dumps(data)
 
-        buildings = data['related_building_ids']
+        buildings = data['relatedBuildingIds']
         print "below is buildings data"
         print buildings
 
@@ -365,6 +365,8 @@ class BuildingBeta:
 
 
             #self.dlg.listView.addItems(layer_list)
+
+
 
 
 
